@@ -7,7 +7,7 @@ CyberTech HTML
  
  
  
- Html проект нашего [сайта](cyber-technology.net)
+ Html проект нашего [сайта](http://cyber-technology.net/)
  ***
  В проекте мы использовали такие технологии как:
   1.  Gulp
