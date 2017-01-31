@@ -4,7 +4,6 @@ CyberTech HTML
 
 
  ![ ](/app/img/cyber_white.png  "CyberTech Logo")
-<<<<<<< HEAD
  
  
  
@@ -59,5 +58,3 @@ CyberTech HTML
 	gulp biuld 
 	
 После чего рядом с папкой app появиться папка dist с компелированными стилями и js скриптами.
-=======
->>>>>>> 01bea8392e0a6bea09fd56286747fe41a372a66a
