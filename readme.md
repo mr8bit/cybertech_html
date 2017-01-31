@@ -3,4 +3,4 @@ CyberTech HTML Template
 
 
 
- ![ ](/home/cyber/Dropbox/cybertech/Логотипы/cyber_white.png  "CyberTech logo")
+ ![ ](/project/cybertech_html/app/img/cyber_white.png  "CyberTech Logo")
