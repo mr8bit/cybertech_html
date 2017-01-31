@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>CyberTech</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#24272d">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#24272d">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#24272d">
+</head>
+
+<body>
+
+
+<nav class="navbar">
+    <div class="container">
+
+        <div class="navbar-header">
+            <span class="open-bar visible-xs" onclick="openNav()"><i class="mdi mdi-menu"></i></span>
+            <a class="navbar-brand" href="#">
+                <div class="nav-brand"></div>
+            </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="mdi mdi-close"></i></a>
+            <a href="#">
+                <div class="nav-brand"></div>
+            </a>
+            <a href="#">Главная</a>
+            <a href="#">Портфолио</a>
+            <a href="#">О нас</a>
+            <a href="#">Контакты</a>
+            <a class="btn btn-menu  btn-contact ">Заказать</a>
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">Главная</a>
+                    <div class="inner-hover"></div>
+                </li>
+                <li><a href="#">Проекты</a>
+                    <div class="inner-hover"></div>
+
+                </li>
+
+                <li><a href="#">О нас</a>
+                    <div class="inner-hover"></div>
+                </li>
+                <li><a href="#">Контакты</a>
+                    <div class="inner-hover"></div>
+                </li>
+                <li>
+                    <button class="btn btn-with-opacity"> Заказать</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container ">
+    <div class="row ">
+        <div class="col-md-12">
+            <div class="page-title">контакты</div>
+            <div class="title-quote">Мы здесь, для того, что бы помочь вам изменить мир.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row contacts">
+        <div class="col-md-3  col-sm-3  hidden-xs side-bar">
+            <div class="info">
+                <div class="title">Адресс</div>
+                <div class="description">г.Москва <br>
+                    Волоколамское шоссе д1с1
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Email</div>
+                <div class="description">info@cyber-technology.net
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Телефон</div>
+                <div class="description"> +7 (495) 005 17 93
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Мы в соц. сетях</div>
+                <div class="soc">
+                    <ul>
+                        <li><a href="#">Dribble</a></li>
+                        <li><a href="#">Vk</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 col-sm-9">
+            <div class="form">
+                <a class="btn to-telegram"><i class="mdi mdi-telegram"></i> Напишите нам в Телеграмм</a>
+                <form>
+                    <div class="or">
+                        Или же напишите нам на почту, используя контактную форму ниже
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Название вашей компании">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Ваше Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <button class="btn submit" type="submit">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-3  col-sm-3 visible-xs-12 hidden-md hidden-lg  hidden-sm side-bar">
+            <div class="info mt-40">
+                <div class="title">Адресс</div>
+                <div class="description">г.Москва <br>
+                    Волоколамское шоссе д1с1
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Email</div>
+                <div class="description">info@cyber-technology.net
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Телефон</div>
+                <div class="description"> +7 (495) 005 17 93
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">Мы в соц. сетях</div>
+                <div class="soc">
+                    <ul>
+                        <li><a href="#">Dribble</a></li>
+                        <li><a href="#">Vk</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--*******************Футер******************-->
+<footer>
+    <div class="container">
+        <div class="row footer">
+            <div class="col-md-12 col-sm-12 col-xs-12 top">
+                <div class="nav-brand"></div>
+                <div class="footer-menu">
+                    <div class="item"><a href="#">Работа с нами</a></div>
+                </div>
+            </div>
+            <div class="col-md-12   col-sm-12 col-xs-12 bottom">
+                <div class="footer-soc">
+                    <a href="#">Dribble</a>
+                    /
+                    <a href="#">GitHub</a>
+                    /
+                    <a href="#">Vk</a>
+                    /
+                    <a href="#">Facebook</a>
+                    /
+                    <a href="#">Twitter</a>
+
+                </div>
+                <div class="copyright">Создано с умом и любовью. © 2017 CyberTech™</div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--*******************Футер******************-->
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

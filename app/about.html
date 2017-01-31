@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>CyberTech</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#24272d">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#24272d">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#24272d">
+</head>
+
+<body>
+
+<!--*******************Шапка******************-->
+<nav class="navbar">
+    <div class="container">
+
+        <div class="navbar-header">
+            <span class="open-bar visible-xs" onclick="openNav()"><i class="mdi mdi-menu"></i></span>
+            <a class="navbar-brand" href="#">
+                <div class="nav-brand"></div>
+            </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="mdi mdi-close"></i></a>
+            <a href="#">
+                <div class="nav-brand"></div>
+            </a>
+            <a href="#">Главная</a>
+            <a href="#">Портфолио</a>
+            <a href="#">О нас</a>
+            <a href="#">Контакты</a>
+            <a class="btn btn-menu  btn-contact ">Заказать</a>
+
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">Главная</a>
+                    <div class="inner-hover"></div>
+                </li>
+                <li><a href="#">Проекты</a>
+                    <div class="inner-hover"></div>
+
+                </li>
+
+                <li><a href="#">О нас</a>
+                    <div class="inner-hover"></div>
+                </li>
+                <li><a href="#">Контакты</a>
+                    <div class="inner-hover"></div>
+                </li>
+                <li>
+                    <button class="btn btn-with-opacity"> Заказать</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--*******************Шапка******************-->
+
+<!--*******************Имя страницы и TITLE******************-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-title">О Нас</div>
+            <div class="quote">
+                <div class="text">“Наше любимое развлечение: искать и находить решения в невыполнимых задачах”
+                </div>
+                <div class="author">- Артемий Мазаев, основатель</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--*******************Имя страницы и TITLE******************-->
+
+<!--*******************Карусель******************-->
+<div class="container-fluid no-padding">
+
+
+    <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/cmylb-7e_ia-joel-beukelman.jpg">
+            </div>
+            <div class="item">
+                <img src="img/gn_niunjyji-nick-karvounis.jpg">
+            </div>
+            <div class="item">
+                <img src="img/qowng4sypim-joel-beukelman.jpg">
+            </div>
+            <div class="item">
+                <img src="img/rfbl4v5uiw4-joel-beukelman.jpg">
+            </div>
+            <div class="item">
+                <img src="img/sia5bx4c0p8-joel-beukelman.jpg">
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="mdi mdi-chevron-left" aria-hidden="true" ></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="mdi mdi-chevron-right" aria-hidden="true"></span>
+        </a>
+    </div>
+
+</div>
+<!--*******************Карусель******************-->
+
+
+<!--*******************Как мы работаем******************-->
+<div class="container">
+    <div class="row how-we-work">
+        <div class="col-md-9">
+            <h2>Кто мы</h2>
+            <p>Мы команда профессионалов, кто любит дизайн и технологии. Наше главное правило дрежать вещи простыми. Мы
+                поможем вам сосредоточиться на том, что вам важно. Мы поможем вам спланировать, разработать и поставить
+                на продакшн наилучший продукт.</p>
+        </div>
+        <div class="col-md-6 mt-30">
+            <img src="img/gn_niunjyji-nick-karvounis.jpg" class="img-responsive">
+        </div>
+        <div class="col-md-6 mt-30">
+            <img src="img/lfv0v3_2h6s-mike-kononov.jpg" class="img-responsive">
+        </div>
+    </div>
+</div>
+<!--*******************Как мы работаем******************-->
+
+
+<!--*******************Как мы работаем******************-->
+<div class="container">
+    <div class="row how-we-work">
+        <div class="col-md-9 mb-40">
+            <h2>Как мы работаем?</h2>
+            <p>Мы используем индивидуальный подход к каждому клиенту, чтобы взаимодействовать с наиболее прудуктивным и
+                эффективным способом.</p>
+        </div>
+        <div class="col-md-6 card-how">
+            <div class="index">01</div>
+            <div>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="title">Стратегия и Аналитика</div>
+            <div class="content">Для лушчего понимания и общения с клентом мы собираем всю информацию, о клиенте и его
+                продукте, прежде
+                чем начать работу. Мы пишем спецификацию, техническое задание в полных деталях и создаем план работ.
+            </div>
+
+        </div>
+        <div class="col-md-6 card-how">
+            <div class="index">02</div>
+            <div>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="title">UX Дизайн</div>
+            <div class="content">Используя каркасы и систему сеток, мы опрделяем будущее интерфейса . UX дизайн важен,
+                что бы представить клиентам, как проект будет выглядить в будущем.
+            </div>
+
+        </div>
+        <div class="col-md-6 card-how">
+            <div class="index">03</div>
+            <div>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="title">UI и тестирование</div>
+            <div class="content">Определим творческое направление для вашего продукта - цвета, шрифты, иконки, дизайн UI
+                компоненты
+                на основе ключевых решений. Разработка дизайна пользовательского интерфейса имеет важное значение для
+                проекта, чтобы остаться в тренде и иметь свой собственный и непоторимый стиль.
+            </div>
+        </div>
+        <div class="col-md-6 card-how">
+            <div class="index">04</div>
+            <div>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="title">Интерактивный дизайн</div>
+            <div class="content">Разработка UI-UX это просто часть работы. Мы же демострируем взаимодействие между
+                пользователем и интерфейсом. Так же определяем каким образом интерфейс далжен реагировать на
+                взаимойдсвие
+                с пользователем.
+            </div>
+        </div>
+        <div class="col-md-6 card-how">
+            <div class="index">05</div>
+            <div>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+            </div>
+            <div class="title">Разработка</div>
+            <div class="content">Реализация проектныз решений является одним из самых важных этапов нашенго процесса.
+                Наша команда разработчиков сосредоточено на поддержании целостности архитектуры проекта.
+            </div>
+        </div>
+        <div class="col-md-6 card-how">
+            <div class="index">06</div>
+            <div>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+            </div>
+            <div class="title">Поддержка проекта</div>
+            <div class="content">Мы обеспечиваем поддержку проектов, на постоянной основе. Мы не только напомним пароль
+                от сайта клиента, но и исправляем "косяки" их штатных сотрудников.
+            </div>
+        </div>
+    </div>
+</div>
+<!--*******************Как мы работаем******************-->
+
+<!--*******************Что мы можем сделать******************-->
+<div class="container">
+    <div class="row what-we-do no-border-bottom">
+        <div class="col-md-9">
+            <h2>Наша миссия</h2>
+            <p>Мы считаем что наука меняет мир к лучшему, и мы стремимся быть частью этого разватия. Используя в разработке научный подход.</p>
+            <div class="we-do">
+                <ul>
+                    <li><span class="thin-25"> <span
+                            class="light-25">01</span> - Улучшить то что было уже до вас. </span></li>
+                    <li><span class="thin-25"> <span class="light-25">02</span> - Сделать сложные многофункциональные вещи простыми. </span>
+                    </li>
+                    <li><span class="thin-25"> <span class="light-25">03</span> - Повысить конверсию и уровень качества. </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--*******************Что мы можем сделать******************-->
+
+<!--*******************Футер******************-->
+<footer>
+    <div class="container">
+        <div class="row footer">
+            <div class="col-md-12 col-sm-12 col-xs-12 top">
+                <div class="nav-brand"></div>
+                <div class="footer-menu">
+                    <div class="item"><a href="#">Работа с нами</a></div>
+                </div>
+            </div>
+            <div class="col-md-12   col-sm-12 col-xs-12 bottom">
+                <div class="footer-soc">
+                    <a href="#">Dribble</a>
+                    /
+                    <a href="#">GitHub</a>
+                    /
+                    <a href="#">Vk</a>
+                    /
+                    <a href="#">Facebook</a>
+                    /
+                    <a href="#">Twitter</a>
+
+                </div>
+                <div class="copyright">Создано с умом и любовью. © 2017 CyberTech™</div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--*******************Футер******************-->
+
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+<script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+<script>
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+
+</html>
