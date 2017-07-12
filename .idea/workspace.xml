@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f79ae0-c17f-441b-9f8a-a4afa3f61c0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/OmskNii.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/affina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/drone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/keyauto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/keyauto_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/lambda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/mos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/neoselen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/ya.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/preview.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/OmskNii.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/affina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/drone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/keyauto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/keyauto_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/lambda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/mai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/mos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/neoselen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/ya.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_media.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_media.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
@@ -70,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_vars.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_vars.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -340,14 +336,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4236000" />
+    <option name="totallyTimeSpent" value="4316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50397456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50397456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -517,6 +512,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -529,14 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           <folding />
         </state>
       </provider>
